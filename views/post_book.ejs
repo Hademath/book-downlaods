@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Online book  Website</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  </head>
+<body>
+    <!-- nav bar start -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light p-4">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="/index"><img src="img/logo.svg" alt="Book Logo" style="max-width: 20%;" ></a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">View All Books</a>
+              </li>
+            </ul>
+            <form class="d-flex input-group w-auto">
+              <input type="search" class="form-control" placeholder="Search book"  aria-label="Search"/>
+              <button class="btn btn-outline-primary"   type="button" data-mdb-ripple-color="dark"  >Search</button>
+            </form>
+          </div>
+        </div>
+      </nav> -->
+      <!-- nav bar end. -->
+        <div class= "container mt-5">
+            <div class ="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+              <div class="container mb-5">
+                <h3 class="text-center" style="font-size: 30px; color:teal">Post New Book</h3>
+              </div>
+          <form method="POST" id="form"  action="">
+            <!-- Name input -->
+            <div class="form-outline mb-4">
+                <input type="text" id="title" class="form-control" name="Title" required />
+                <label class="form-label" for="title">Book Title</label>
+            </div>
+            <!--Varieties of books-->
+            <div class="row mb-4">
+                <div class="col">
+                  <div class="form-outline">
+                    <input type="text" id="author" class="form-control"  name="Author" required/>
+                    <label class="form-label" for="author">Author's Name</label>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="form-outline">
+                    <input type="number" id="pageCount" class="form-control" name="pageCount"/>
+                    <label class="form-label" for="pageCount">Page Number</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-4">
+                <div class="col">
+                  <div class="form-outline">
+                    <input type="text" id="Genre" class="form-control"  name="Genre" required/>
+                    <label class="form-label" for="Genre">Genre</label>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="form-outline">
+                    <input type="text" id="Publisher" class="form-control"  name="Publisher" value="" required/>
+                    <label class="form-label" for="Publisher">Publisher</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-4">
+                <div class="col">
+                  <div class="form-outline">
+                    <input type="date" id="datePublished" name="datePublished" class="form-control"  required/>
+                    <label class="form-label" for="datePublished">Date</label>
+                  </div>
+                </div>
+                </div>
+            <!-- Message input -->
+            <div class="form-outline mb-4">
+                <textarea class="form-control" id="Description" rows="4" name="Description" required></textarea>
+                <label class="form-label" for="Description">Description</label>
+            </div>
+            <!-- Submit button -->
+        <button type="submit" class="btn btn-primary btn-block mb-4" id="submitbtn" onclick="window.alert('You Have post New Book Sucessfully')"
+         style="width: 100%;">Add New Book</button>
+     </form>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+      <!-- footer section, -->
+        <!-- Footer -->
+        <footer class="text-center text-white mt-5" style="background-color: #0a4275;">
+          <!-- Grid container -->
+          <div class="container p-4 pb-0">
+            <!-- Section: CTA -->
+            <section class="">
+              <p class="d-flex justify-content-center align-items-center">
+                <span class="me-3">Home of Knowledge</span>
+                <button type="button" class="btn btn-outline-light btn-rounded">
+                  View More
+                </button>
+              </p>
+            </section>
+            <!-- Section: CTA -->
+          </div>
+          <!-- Grid container -->
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2021 Copyright:
+            <a class="text-white" href="">Hademath</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+       
+        <!-- Footer -->
+
+        <script src="js/detail.js"></script>
+</body>
+</html>

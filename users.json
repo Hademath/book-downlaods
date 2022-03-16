@@ -1,0 +1,33 @@
+[
+   {
+      "fullname": "ebayo",
+      "email": "Idserweweis@gmail.com",
+      "userId": 1,
+      "dateOfBirth": "13/3/25",
+      "password": "$2b$10$/Uqj5FKBzYRrYAkJwNnkuukInjBnYGCdg4PSbbZbXZwykxxGyN7Vq"
+   },
+   {
+      "fullname": "yebayo",
+      "email": "idse34rweerweis@gmail.com",
+      "registerDate": "2021-12-08T09:00:32.339Z",
+      "userId": 2,
+      "dateOfBirth": "133/3/25",
+      "password": "$2b$10$MosxD3G4hhhIDeHGzsP/VOHbQXKnRkl6BWSs1B2rEt4YhrDdq0Zh6"
+   },
+   {
+      "fullname": "Adeleke Matthew Abiola",
+      "email": "hademath1@gmail.com",
+      "registerDate": "2021-12-10T14:01:39.131Z",
+      "userId": 3,
+      "dateOfBirth": "2021-12-24",
+      "password": "$2b$10$.9Oiwp1IAldhsHI1BwV4tOYv2FQVRsQ1VF.gIOPeUuzrrpNoywqKu"
+   },
+   {
+      "fullname": "Adeleke Matthew Abiola",
+      "email": "matthew.adeleke@decagon.dev",
+      "registerDate": "2021-12-10T14:37:44.644Z",
+      "userId": 4,
+      "dateOfBirth": "2021-12-02",
+      "password": "$2b$10$o2m9mAUFNyDezulAePdxmeZMw4e3I9fZmYpIdD/SeOKi05ZtXT0xu"
+   }
+]

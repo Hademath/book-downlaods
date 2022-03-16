@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Login</title>
+</head>
+<body>
+
+        <section>
+               <div class= "container mt-5">
+            <div class ="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+              <div class="container mb-5">
+                <h3 class="text-center" style="font-size: 30px; color:rgb(255, 255, 255)">Sign up to download  Book</h3>
+              </div>
+          <form method="POST" id="form"  action="">
+            <!-- Name input -->
+            <div class="form-outline mb-4">
+                <input type="text" id="fullname" class="form-control" name="fullname" required />
+                <label class="form-label" for="title">Fullname</label>
+            </div>
+            <!--Varieties of books-->
+            <div class="row mb-4">
+                <div class="col">
+                  <div class="form-outline">
+                    <input type="text" id="email" class="form-control"  name="email" required/>
+                    <label class="form-label" for="email">email</label>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="form-outline">
+                    <input type="text" id="password" class="form-control" name="password"/>
+                    <label class="form-label" for="password">Password</label>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="row mb-4">
+                <div class="col">
+                  <div class="form-outline">
+                    <input type="date" id="dateOfBirth" name="dateOfBirth" class="form-control"  required/>
+                    <label class="form-label" for="dateOfBirth">Date of Birth</label>
+                  </div>
+                </div>
+                </div>
+          
+            <!-- Submit button -->
+        <button type="submit" class="btn btn-primary btn-block mb-4" id="submitbtn" style="width: 100%;">Register</button>
+     </form>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+        </section>
+
+        
+    
+</body>
+</html>
